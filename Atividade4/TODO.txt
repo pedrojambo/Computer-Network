@@ -1,0 +1,9 @@
+A) Resumo sobre o assunto do artigo, o experimento e uma frase contando algum detalhe do resultado
+
+B) Uma introdução do assunto de roteamento de pacotes
+
+C) Uma seção de fundamentos teóricos explicando por exemplo se os algoritmos implantados são de estafo de enlace, vetor de distâncias e porque
+
+D) Uma seção descrevendo a experimentação realizada e os resultados obtidos
+
+E) Uma seção de conclusão 

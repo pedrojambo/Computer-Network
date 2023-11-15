@@ -1,0 +1,9 @@
+--INTRODUÇÃO
+
+As redes de computadores desempenham um papel fundamental na conectividade global, proporcionando a infraestrutura que sustenta a comunicação instantânea e a transferência eficiente de dados em escala mundial. Em meio a essa complexidade de interconexões, o roteamento emerge como um elemento vital para otimizar o fluxo de informações. 
+
+Este artigo se propõe a realizar uma análise abrangente do conteúdo de roteamento em redes de computadores, explorando a eficácia de diferentes algoritmos por meio da aplicação do software Sinalgo. Em meio a essa análise, conceitos básicos de roteamento de pacotes, bem como os diferentes tipos de algoritmos utilizados atualmente para tal, serão abordados para a compreensão de uma conclusão embasada.
+
+--PRINCÍPIOS BÁSICOS DO ROTEAMENTO DE PACOTES
+
+O roteamento de pacotes, em si, diz respeito ao processamento de rotas para transmissão de pacotes, de um sistema final ao outro. Em um cenário em que enviamos uma mensagem de texto para um familiar, por exemplo, serão os roteadores aqueles responsáveis por garantir as rotas para que sua mensagem chegue ao membro de sua família. temos Tais rotas são calculadas pelo dispositivo que chamamos de roteadores. Os roteadores, através dos enlaces, se comunicam através de 
