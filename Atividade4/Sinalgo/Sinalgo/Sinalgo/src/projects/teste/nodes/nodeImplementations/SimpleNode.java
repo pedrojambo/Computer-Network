@@ -18,7 +18,7 @@ import sinalgo.nodes.messages.Message;
 import sinalgo.tools.storage.ReusableListIterator;
 
 public class SimpleNode extends sinalgo.nodes.Node {
-    int Destino = 119;
+    int Destino = 44;
     ArrayList<SimpleNode> Neighbors = new ArrayList<>();
     ArrayList<Double> Neighborscost = new ArrayList<>();
     TabelaRotas Tab = new TabelaRotas("Tab");
