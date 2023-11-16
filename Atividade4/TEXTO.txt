@@ -23,7 +23,8 @@ Nos Algoritmos de Estado de Enlace (Link State), cada nó na rede mantém inform
 
 Em contrapartida, nos Algoritmos de Vetor de Distância, cada nó mantém uma tabela de vetor de distância que lista a distância estimada para todos os destinos conhecidos e o próximo salto para alcançá-los. Para que o algoritmo funcione, os nós periodicamente trocam informações de vetor de distância com seus vizinhos, informando sobre as distâncias estimadas para cada destino. Com base em ditas informações recebidas, cada nó atualiza sua tabela de vetor de distância, recalculando as distâncias mais curtas e os próximos saltos.
 
-Diante disso, como cada 
+
+Diante disso, como veremos a seguir, os três algoritmos que farão parte do experimento são Algoritmos de Estado de Enlace. Armazenando informações sobre o estado de todos os nós do mapeamento de roteadores na simulação, esses algoritmos promovem uma representação abrangente da topologia da rede. Cada nó mantém atualizações regulares sobre o estado de seus enlaces e compartilha essas informações com os demais nós, permitindo a manutenção de suas tabelas de estado de enlace. Dessa forma, os algoritmos podem calcular de maneira eficiente as rotas mais otimizadas para o encaminhamento de dados, garantindo uma adaptação dinâmica às mudanças na rede e otimizando o desempenho do roteamento.
 
 
 
@@ -31,4 +32,10 @@ Diante disso, como cada
 
 Nesse artigo, um experimento será conduzido para avaliar, através do software Sinalgo, o resultado de simulações de execuções de três algoritmos de roteamento diferentes (disponibilizados pelo software). Ao executarmos uma simulação, é possível definir como será o mapeamento dos roteadores na área simulada, permitindo a configuração do posicionamento dos roteadores, número de roteadores posicionados, número do roteador de origem (o roteador que está enviando um pacote), número do roteador de destino (o roteador que é o destino do pacote enviado). Ao término de cada round, o software imprime 3 valores no terminal, respectivamente: o custo de rede da execução (custo), o tempo de execução do algoritmo selecionado (RTT) e o tempo total (custo + RTT).
 
-Para cada algoritmo, serão executadas 30 rodadas da simulação, utilizando o mesmo mapa de roteadores para todas as simulações, com o intuito de comparar a eficiência dos três algoritmos. Ademais, para todas as execuções, o roteador de origem será o de número 43, enquanto que o de destino será 119 para o primeiro comparativo e 44 para o segundo. Ao final das execuções, teremos dois conjuntos de três resultados da simulação (um conjunto para cada um dos dois roteador de destino), cada resultado contendo 30 linhas de resultados de rounds de execução. Por fim, calcularemos o valor do Timeoutinterval para cada round, através do cálculo do EstimatedRTT (utilizando a coluna do meio impressa no terminal) e DevRTT com os valores de alfa = 0,125 e beta igual a 0,25, para que seja possível visualizar devidamente a comparação proposta.
+Para cada algoritmo, serão executadas 30 rodadas da simulação, utilizando o mesmo mapa de roteadores para todas as simulações, com o intuito de comparar a eficiência dos três algoritmos. Ademais, para todas as execuções, o roteador de origem será o de número 43, enquanto que o de destino será 119 para o primeiro comparativo e 44 para o segundo. Ao final das execuções, teremos dois conjuntos de três resultados da simulação (um conjunto para cada um dos dois roteador de destino), cada resultado contendo 30 linhas de resultados de rounds de execução. Por fim, para que seja possível visualizar devidamente a comparação proposta, calcularemos o valor do Timeoutinterval para cada round, através do cálculo do EstimatedRTT (utilizando a coluna do meio impressa no terminal) e DevRTT com os valores de alfa = 0,125 e beta igual a 0,25, da seguinte forma:
+
+(fórmula)
+
+--CONCLUSÃO
+
+Ao realizarmos a comparação, vimos que tal é melhor
